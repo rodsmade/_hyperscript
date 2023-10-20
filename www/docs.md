@@ -301,8 +301,8 @@ By using these prefixes it is easy to tell differently scoped variables from one
 syntax:
 
   ~~~ hyperscript
-  set $foo to 10 -- sets a global named $foo
-  set :bar to 20 -- sets an element scoped variable named :bar
+  set $foo to 10 -- sets a global variable named $foo
+  set :bar to 20 -- sets an element-scoped variable named :bar
   ~~~
 
 Here is an example of a click handler that uses an element scoped variable to maintain a counter:
